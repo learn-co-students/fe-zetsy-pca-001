@@ -2,12 +2,13 @@
 
 /* link the web font used for the level 1 heading here */
 
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +16,27 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1 {
+	color: rgb(111,127,122);
+}
+
+h2 {
+	color: rgb(111,127,122);
+}
+
+p {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
 }
 
 /* Write all remaining styles here */
