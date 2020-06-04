@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,65 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	margin: 0 0 20px;		padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;		font-size: 5em;
+	font-weight: normal;		font-weight: normal;
+	font-family: 'Baskerville', serif;		font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}	}
+
+
+h2 {	h2 {
+@@ -35,24 +37,24 @@ h2 {
+p  {	p  {
+	color: #555;		color: #555;
+	font-size: 1em;		font-size: 1em;
+	margin: 0 0 20px 0px;		margin: 0 0 20px 0;
+}	}
+
+
+a {	.small {
+	font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);		color: rgb(152,173,166);
+	text-decoration: none;		text-decoration: none;
+}	}
+
+
+a:hover {	header a:hover {
+	color: rgb(111,127,122);		color: rgb(111,127,122);
+}	}
+
+
+/*////////// Section Styles //////////*/
+
+section {
+	background: #FFF;
+}
+
+#featured img {	#featured img {
+	border: 5px rgb(152,173,166) solid;		border: 5px rgb(152,173,166) solid;
+}	}
+@@ -71,7 +73,7 @@ section {
+}	}
+
+
+#press img {	#press img {
+	border: 5px #CCC solid;		border: 5px #ccc solid;
+	padding: 1px;		padding: 1px;
+}	}
+
+
+@@ -81,5 +83,5 @@ section {
+
+
+footer {	footer {
+	text-align: right;		text-align: right;
+	background: #FFF;		background: #fff;
+}	}
